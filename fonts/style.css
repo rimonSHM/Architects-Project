@@ -205,6 +205,19 @@ main > section {
     text-align: center;
 }
 
+#experience-badge {
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+
+#experience-year {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
 /* features section related styles */
 #feature-section-title {
     border-left: 5px solid #FF900E;
@@ -252,7 +265,7 @@ main > section {
 /* responsive media query */
 
 @media screen and (max-width: 576px){
-    .navbar, .nav-list, .teams {
+    .navbar, .nav-list, .teams, .features {
         flex-direction: column;
     }
 
